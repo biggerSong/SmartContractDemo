@@ -2,6 +2,11 @@ pragma solidity >=0.4.22 <0.6.0;
 
 contract cal{
     
+    constructor(string memory _walletname, string memory _nickname, uint256
+_verifycode, uint256 _M, uint256 _N) public {
+    
+    
+}
     
     function helloworld() public pure returns (string memory) {
         
